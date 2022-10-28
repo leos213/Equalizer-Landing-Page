@@ -383,10 +383,14 @@ footer p {
     }
 
 
-    footer {
-        position: relative;
-        left: 25px;
-        bottom: -438px;
+   footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .footerDiv {
+        margin-left: 30px;
     }
 
 
